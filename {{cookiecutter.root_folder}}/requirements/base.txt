@@ -1,0 +1,73 @@
+# Core API helpers for Django and Django Rest Framework
+# https://pypi.org/project/django-coreapi/
+coreapi==2.3.3
+
+# https://pypi.org/project/coreschema/
+coreschema==0.0.4
+
+# Django is a high-level Python Web framework that encourages rapid
+# development and clean, pragmatic design.
+# https://pypi.org/project/Django/
+Django==3.0.4
+
+# Collection of admin fields, decorators and mixin to help to create computed or custom fields more friendly and easy way
+# https://pypi.org/project/django-admin-easy/
+django-admin-easy==0.5.1
+
+# Django Extensions is a collection of custom extensions for the Django Framework.
+# https://pypi.org/project/django-extensions/
+django-extensions==2.2.5
+
+# Django-filter is a reusable Django application allowing users to declaratively add dynamic QuerySet filtering from URL parameters.
+# https://pypi.org/project/django-filter/
+django-filter==2.2.0
+
+# https://pypi.org/project/django-rest-auth/
+django-rest-auth==0.9.5
+
+# Awesome web-browsable Web APIs.
+# https://pypi.org/project/djangorestframework/
+djangorestframework==3.11.0
+
+# django-rest-framework-filters is an extension to Django REST framework and Django filter that makes it easy to filter across relationships.
+# https://pypi.org/project/djangorestframework-filters/
+djangorestframework-filters==1.0.0.dev0
+
+
+# factory_boy is a fixtures replacement based on thoughtbot’s factory_bot.
+# https://pypi.org/project/factory-boy/
+factory-boy==2.12.0
+
+# Faker is a Python package that generates fake data for you.
+# https://pypi.org/project/Faker/
+Faker==4.0.1
+
+# Jinja is a fast, expressive, extensible templating engine.
+# https://pypi.org/project/Jinja2/
+Jinja2==2.10.3
+
+# The dateutil module provides powerful extensions to the standard datetime module, available in Python.
+# https://pypi.org/project/python-dateutil/
+python-dateutil==2.8.1
+
+# Requests is an elegant and simple HTTP library for Python, built with ♥.
+# https://pypi.org/project/requests/
+requests==2.22.0
+
+# https://pypi.org/project/setuptools/
+setuptools==42.0.2
+
+# https://pypi.org/project/six/
+six==1.13.0
+
+# sqlparse is a non-validating SQL parser module. It provides support for parsing, splitting and formatting SQL statements.
+# https://pypi.org/project/sqlparse/
+sqlparse==0.3.0
+
+# Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+# https://pypi.org/project/psycopg2/
+psycopg2==2.8.4
+
+# Organize Django settings into multiple files and directories.
+# https://pypi.org/project/split-settings/
+django-split-settings==1.0.0

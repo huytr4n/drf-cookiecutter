@@ -1,0 +1,3 @@
+# Coverage.py measures code coverage, typically during test execution.
+# https://pypi.org/project/coverage/
+coverage==5.0.1

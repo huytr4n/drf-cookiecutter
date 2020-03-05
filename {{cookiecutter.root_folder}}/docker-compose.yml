@@ -1,0 +1,35 @@
+version: '3.6'
+services:
+  api:
+    image: {{ cookiecutter.project_name }}:local
+    build:
+      dockerfile: Dockerfile
+      context: .
+    command: bin/dj-run.sh
+    volumes:
+      - .:/app
+    links:
+      - db
+    ports:
+      - 8000:8000
+    environment:
+      DJANGO_ENV: dev
+      ADMIN_ENABLED: 'true'
+      DATABASE_NAME: {{ cookiecutter.project_name }}
+      DATABASE_USER: {{ cookiecutter.project_name }}
+      DATABASE_PASSWORD: {{ cookiecutter.project_name }}
+      DATABASE_HOST: db
+      DATABASE_ENGINE: django.db.backends.postgresql
+      DATABASE_MIGRATE: 'true'
+      GENERATE_SAMPLE_DATA: 'true'
+
+  db:
+    image: postgres:{{ cookiecutter.postgres_version }}
+    ports:
+      - 5433:5432
+    volumes:
+      - ../data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: {{ cookiecutter.project_name }}
+      POSTGRES_PASSWORD: {{ cookiecutter.project_name }}
+      POSTGRES_DB: {{ cookiecutter.project_name }}

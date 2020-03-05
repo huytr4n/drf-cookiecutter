@@ -1,0 +1,3 @@
+# Generate real Swagger/OpenAPI 2.0 specifications from a Django Rest Framework API.
+# https://pypi.org/project/drf-yasg/
+drf-yasg==1.17.0
