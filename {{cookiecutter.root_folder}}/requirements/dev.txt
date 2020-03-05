@@ -1,3 +1,11 @@
 # Generate real Swagger/OpenAPI 2.0 specifications from a Django Rest Framework API.
 # https://pypi.org/project/drf-yasg/
 drf-yasg==1.17.0
+
+# Django REST framework core
+# https://github.com/tranquochuy/drf-core
+-e git+https://github.com/tranquochuy/drf-core.git#egg=drf_core
+
+# Django REST framework generator
+# https://github.com/tranquochuy/drf-app-generators
+-e git+https://github.com/tranquochuy/drf-app-generators#egg=drf_app_generators

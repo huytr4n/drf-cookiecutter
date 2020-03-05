@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_auth',
     'drf_app_generators',
+    'drf_core',
 ]
 
 INSTALLED_APPS += [

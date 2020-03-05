@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate
-from core import apis, apidoc
+from drf_core import apis, apidoc
 from accounts.serializers import AuthenticateSerializer
 
 

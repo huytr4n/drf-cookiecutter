@@ -1,6 +1,6 @@
 import os
 
-from core import factories
+from drf_core import factories
 from .models import User
 from django.contrib.auth.hashers import make_password
 

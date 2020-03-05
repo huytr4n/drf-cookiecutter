@@ -1,4 +1,4 @@
-from core.tests import BaseTestCase
+from drf_core.tests import BaseTestCase
 
 from accounts.apis import LoginView
 from accounts.models import User
