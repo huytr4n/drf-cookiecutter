@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     'apis',
     'accounts',
-    'debug',
+    'debugging',
 ]
 
 MIDDLEWARE = [
