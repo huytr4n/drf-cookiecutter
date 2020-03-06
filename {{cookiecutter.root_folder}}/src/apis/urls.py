@@ -3,7 +3,7 @@ from django.conf import settings
 from django.urls import path
 from rest_framework.routers import DefaultRouter
 
-from accounts.apis import apps as LogoutView, LoginView
+from accounts.apis import LogoutView, LoginView
 
 
 # Create root API router.
