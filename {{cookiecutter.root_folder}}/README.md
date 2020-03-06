@@ -1,4 +1,4 @@
-# {{ cookiecutter.project_name }}
+# Project {{ cookiecutter.project_name|capfirst }}
 
 ## Requirements
   * [pipenv](https://github.com/pypa/pipenv)
