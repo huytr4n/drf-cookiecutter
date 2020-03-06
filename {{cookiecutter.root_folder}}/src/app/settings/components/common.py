@@ -47,9 +47,14 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'apis',
-    'accounts',
     'debugging',
 ]
+
+API_APPS = [
+    'accounts',
+]
+
+INSTALLED_APPS += API_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
