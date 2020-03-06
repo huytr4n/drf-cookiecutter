@@ -1,20 +1,25 @@
-from accounts.apis import apps as account_apps, LogoutView, LoginView
+from importlib import import_module
+from django.conf import settings
 from django.urls import path
-
 from rest_framework.routers import DefaultRouter
 
+from accounts.apis import apps as LogoutView, LoginView
 
+
+# Create root API router.
 api_routers = DefaultRouter()
 
+# Load all api apps from settings.
+api_apps = settings.API_APPS
 
-def register_apis(resources):
-    if resources:
-        for resource in resources:
-            resource_name = resource.resource_name
-            api_routers.register(resource_name, resource, resource_name)
-
-# register for each API
-register_apis(account_apps)
+for api_app in api_apps:
+    api_module = import_module(f'{api_app}.apis', 'apps')
+    for viewset in api_module.apps:
+        api_routers.register(
+            viewset.resource_name,
+            viewset,
+            viewset.resource_name,
+        )
 
 # Collect all end-point patterns
 urlpatterns = [
