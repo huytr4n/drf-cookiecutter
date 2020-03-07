@@ -75,12 +75,11 @@ After the server is up, you can go to [http://localhost:8000/api/v1/](http://loc
 ![browsable-api](https://www.evernote.com/l/AQERwsctD-tKlY6Y9m9lCSXgeKdmPicctvwB/image.png)
 
 ### API documentation
+Written version:
+* [APIs](doc/apis/index.md)
 
-This project uses [drf-yasg](https://drf-yasg.readthedocs.io/en/stable/) to generate API documentation.
-
-After the server is up, go to [http://localhost:8000/redoc/](http://localhost:8000/redoc/) to checkout the API documentation.
-
-![api-doc](https://www.evernote.com/l/AQG41-r6559KKpzCLJwz4jf1xfv3Jf6r0yMB/image.png)
+Auto-generated version:
+* [Redoc](http://localhost:8000/redoc/)
 
 ### Unit Testing and coverage
 
