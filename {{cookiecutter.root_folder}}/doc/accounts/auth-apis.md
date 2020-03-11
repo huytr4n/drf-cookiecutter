@@ -27,8 +27,8 @@ User can find the following information in the response:
 |--------|----------------|
 | email | The user's email |
 | username | The user's username |
-| first_name | The user's firstname |
-| last_name | The user's lastname |
+| first_name | The user's first name |
+| last_name | The user's last name |
 | apikey | The api key to authenticate later without user name and password. |
 
 ### Response Status Code

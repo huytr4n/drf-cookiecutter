@@ -36,5 +36,10 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'apis': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
     },
 }
