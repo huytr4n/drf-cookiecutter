@@ -66,7 +66,7 @@ sqlparse==0.3.0
 
 # Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
 # https://pypi.org/project/psycopg2/
-psycopg2==2.8.4
+psycopg2-binary==2.8.4
 
 # Organize Django settings into multiple files and directories.
 # https://pypi.org/project/split-settings/
