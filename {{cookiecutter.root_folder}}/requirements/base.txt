@@ -27,7 +27,7 @@ django-rest-auth==0.9.5
 
 # Awesome web-browsable Web APIs.
 # https://pypi.org/project/djangorestframework/
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 
 # django-rest-framework-filters is an extension to Django REST framework and Django filter that makes it easy to filter across relationships.
 # https://pypi.org/project/djangorestframework-filters/
