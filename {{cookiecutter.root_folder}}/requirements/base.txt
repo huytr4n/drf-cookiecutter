@@ -44,7 +44,7 @@ Faker==4.0.1
 
 # Jinja is a fast, expressive, extensible templating engine.
 # https://pypi.org/project/Jinja2/
-Jinja2==2.10.3
+Jinja2==2.11.3
 
 # The dateutil module provides powerful extensions to the standard datetime module, available in Python.
 # https://pypi.org/project/python-dateutil/
