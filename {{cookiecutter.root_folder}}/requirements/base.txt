@@ -8,7 +8,7 @@ coreschema==0.0.4
 # Django is a high-level Python Web framework that encourages rapid
 # development and clean, pragmatic design.
 # https://pypi.org/project/Django/
-Django==3.0.4
+Django==3.0.12
 
 # Collection of admin fields, decorators and mixin to help to create computed or custom fields more friendly and easy way
 # https://pypi.org/project/django-admin-easy/
