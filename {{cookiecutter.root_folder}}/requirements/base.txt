@@ -55,7 +55,7 @@ python-dateutil==2.8.1
 requests==2.22.0
 
 # https://pypi.org/project/setuptools/
-setuptools==42.0.2
+setuptools==65.5.1
 
 # https://pypi.org/project/six/
 six==1.13.0
